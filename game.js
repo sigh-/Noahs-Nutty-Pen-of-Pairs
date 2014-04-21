@@ -18,6 +18,7 @@ function tu_detect_audio(_type) {
 	return _au.canPlayType && _au.canPlayType(_type).replace(/no/, '');
 }
 //
+alert('made it');
 var	__path__ = window.__path__ ? window.__path__ : '',
 	// system variables:
 	tu_gameloop = tu_canvas = tu_context = tu_room_to_go = null, tu_canvas_id = 'tululoocanvas',
@@ -2811,4 +2812,3 @@ for(var i=0;i<list.length;i++){
 
 tu_gameloop = tu_loop;
 tu_loop();
-alert('made it');
