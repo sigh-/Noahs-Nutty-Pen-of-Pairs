@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#text{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+max-width:600px;
+font-size:14pt;
+
+text-shadow:0px 1px 0px rgba(200,200,200,.5);
+//background-color:rgba(0,0,0,.25);
+padding:10px;
+}
+#quote{
+background-color:rgba(0,0,0,.65);
+position:relative;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+font-size:16pt;
+color:white;
+padding:10px;
+text-shadow:0px 0px 0px black;
+}
+#source{
+
+position:relative;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+font-size:12pt;
+}
+body{
+background-image:url(waterbg.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#backbutton{
+background-image:url(img/back_sprite_0.png);
+background-position:top left;
+background-repeat:no-repeat;
+display:inline-block;
+height:92px;
+}
+
+</style>
+<script>
+function backbutton(elm){
+elm.style.backgroundImage="url(img/back_sprite_1.png)";
+}
+document.addEventListener('mouseup',function(){document.getElementById('backbutton').style.backgroundImage="url(img/back_sprite_0.png)";});
+</script>
+</head>
+<body>
+<div><a id='backbutton' onmousedown='backbutton(this)' href='index.html?room=story_menu'><img style='visibility:hidden;' src='img/back_sprite_1.png'/></a></div>
+<div id='text'>
+Geological evidence does indicate that a sudden and catastrophic flood occurred in the region and at the time of Noah.
+<br/><br/>
+
+Robert Ballard, the same archaeologist who found the Titanic at the bottom of the sea, discovered a hidden shoreline in the
+rock layers 400 feet below the surface of the Black Sea. According to Ballard, this points to a sudden and violent flood.
+<br/><br/>
+<div id='quote'>
+"It probably was a bad day," Ballard said. "At some magic moment, it broke through and flooded this place violently, and a lot of real estate,
+150,000 square kilometers of land, went under." <br/><br/>
+
+The water from the melting glaciers began to rush toward the world's oceans, Ballard said, causing floods all around the world.
+"The questions is, was there a mother of all floods," Ballard said. <br/><br/>
+
+</div>
+<div id='source'>Original Story:<a href='http://abcnews.go.com/Technology/evidence-suggests-biblical-great-flood-noahs-time-happened/story?id=17884533'>http://abcnews.go.com/Technology/evidence-suggests-biblical-great-flood-noahs-time-happened/story?id=17884533</a></div>
+<br/><br/>
+
+Debate centers around the scope of the flood within the story of Noah. At the time the story is to have taken place,
+the civilizations of humanity may not have been prosperous across the globe. Does the story suggest our whole planet 
+was flooded, or does it refer to local floods that wiped out all of the civilized world?  <br/><br/>
+
+
+Interestingly, the archetypal story of Noah exists across a wide variety of cultures scattered around the world and going back thousands of years.<br/><br/>
+You can explore them at <a href='http://www.talkorigins.org/faqs/flood-myths.html'>http://www.talkorigins.org/faqs/flood-myths.html</a>.<br/><br/>
+While not definitive proof of anything, this is consistent with what would be expected if humanity shared a common ancestry with a group of survivors.
+
+</div>
+
+</body>
+</html>
