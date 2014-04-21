@@ -18,7 +18,7 @@ function tu_detect_audio(_type) {
 	return _au.canPlayType && _au.canPlayType(_type).replace(/no/, '');
 }
 //
-alert('made it');
+
 var	__path__ = window.__path__ ? window.__path__ : '',
 	// system variables:
 	tu_gameloop = tu_canvas = tu_context = tu_room_to_go = null, tu_canvas_id = 'tululoocanvas',
@@ -2143,6 +2143,7 @@ instance_list(water)[0].move_towards_point(0,room_height/2,15);
 if(mouse_pressed){
 if(place_meeting(mouse_x,mouse_y,next_button)){
 instance_list(next_button)[0].image_index=1;
+}
 }
 if(mouse_released){
 instance_list(next_button)[0].image_index=0;
